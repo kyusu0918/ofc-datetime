@@ -1,6 +1,6 @@
 {
   "name": "@kyusu0918/ofc-datetime",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight, zero-dependency Date/Time utility library for fixed format (yyyy/MM/dd hh:mm:ss) with UTC and Intl support for TypeScript. Part of the ofc utility series by Kei Yusu.",
   "main": "dist/ofcDateTime.js",
   "types": "dist/ofcDateTime.d.ts",
