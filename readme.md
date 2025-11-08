@@ -1,5 +1,10 @@
 # 🕓 ofc-datetime
 
+[![npm version](https://img.shields.io/npm/v/@kyusu0918/ofc-datetime.svg)](https://www.npmjs.com/package/@kyusu0918/ofc-datetime)
+[![npm downloads](https://img.shields.io/npm/dm/@kyusu0918/ofc-datetime.svg)](https://www.npmjs.com/package/@kyusu0918/ofc-datetime)
+[![license](https://img.shields.io/npm/l/@kyusu0918/ofc-datetime.svg)](https://github.com/kyusu0918/ofc-datetime/blob/main/LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-blue?logo=typescript)](https://www.typescriptlang.org/)
+
 **Lightweight, zero-dependency Date/Time utility library for fixed format (`yyyy/MM/dd hh:mm:ss`)  
 with UTC and Intl support for TypeScript.**  
 by **Kei Yusu (Oresama Foundation Code)**
