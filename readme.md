@@ -58,19 +58,19 @@ import {
   divideDateTime 
 } from "@kyusu/ofc-datetime";
 
-// 現在日時の取得
+// Get current date
 console.log(getNowDateString()); // "2025/11/08"
 
-// フォーマット変換
+// Format conversion
 console.log(toDateString("20251108")); // "2025/11/08"
 
-// 日付加算
+// Add days
 console.log(addDays("2025/11/08 00:00:00", 5)); // "2025/11/13 00:00:00"
 
-// 差分算出
+// Calculate difference (in hours)
 console.log(diffHour("2025/11/08 00:00:00", "2025/11/09 06:00:00")); // 30
 
-// 分解
+// Split datetime string into components
 console.log(divideDateTime("2025/11/08 13:02:10"));
 // → { y:2025, m:11, d:8, hr:13, min:2, sec:10 }
 ```
