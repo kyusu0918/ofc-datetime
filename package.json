@@ -1,0 +1,41 @@
+{
+  "name": "@kyusu0918/ofc-datetime",
+  "version": "1.0.0",
+  "description": "Lightweight, zero-dependency Date/Time utility library for fixed format (yyyy/MM/dd hh:mm:ss) with UTC and Intl support for TypeScript. Part of the ofc utility series by Kei Yusu.",
+  "main": "dist/ofcDateTime.js",
+  "types": "dist/ofcDateTime.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "date",
+    "datetime",
+    "typescript",
+    "utility",
+    "utc",
+    "intl",
+    "zero-dependency",
+    "lightweight",
+    "ofc"
+  ],
+  "author": "Kei Yusu <kyusu0918@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kyusu0918/ofc-datetime.git"
+  },
+  "homepage": "https://github.com/kyusu0918/ofc-datetime#readme",
+  "bugs": {
+    "url": "https://github.com/kyusu0918/ofc-datetime/issues"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.5",
+    "typescript": "^5.9.3"
+  }
+}
